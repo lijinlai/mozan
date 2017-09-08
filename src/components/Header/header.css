@@ -1,0 +1,24 @@
+header{background-color: #2b2e33;
+  padding: 15px 0;
+  }
+.top{width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;}
+.top>img:nth-child(2){
+  margin-left: 400px;
+}
+.top>img:nth-child(3){
+  margin-left: 200px;
+}
+.top>img:nth-child(4){
+  margin-left: 100px;
+}
+.banner{margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  background: url(../images/BG_03.jpg)
+}
+.banner>img{width: 350px;
+height: 300px;}

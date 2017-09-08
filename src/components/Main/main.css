@@ -1,0 +1,204 @@
+.inner{width: 1200px;
+  background-color: #2b2e33;
+  margin: 0 auto;}
+.content{width: 1100px;
+  margin: 0 auto;
+  padding-top:30px;
+  overflow: hidden;}
+.content .left{width: 630px;
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  float: left;
+  display: flex;
+  flex-direction: column;}
+.left .bigtime{overflow: hidden;}
+.left .sale{float: left;
+  margin-bottom: 60px;}
+.left .endtime{float: left;
+  margin-bottom: 10px;}
+.left .sale>img{float: left;
+  display: block;}
+.left .T{font-size: 36px;
+  color:#fff;
+  display: block;
+  float: left;
+  width: 396px;
+  height: 92px;
+  margin-left: 30px;}
+.left .endtime>p{width: 200px;
+  color:#707378;
+  margin-bottom: 5px;}
+.left .time{background-color: #707378;
+  width: 418px;
+  border-radius: 8px;}
+.left .time>span{
+  color:yellow;
+  font-size: 30px;
+  margin-left: 30px;}
+.left .time>span:nth-child(8){
+  font-size: 16px;
+  margin-left: 37px;
+}
+.left .time>span:nth-child(9){
+  font-size: 16px;
+  margin-left: 95px;
+}
+.left .time>span:nth-child(10){
+  font-size: 16px;
+  margin-left: 90px;
+}
+.left .time>span:nth-child(11){
+  font-size: 16px;
+  margin-left: 90px;
+}
+.left .watch{float: left;
+  margin-left: 10px;
+  margin-top: 20px;}
+.watch>span{color:#707378;
+}
+.watch>img{margin-top: 5px;}
+.share{width: 100px;
+  margin-top: 50px;
+  color:#fff;}
+.share>a{color:#ddd;
+  margin-left: 5px;}
+.share>span{margin:0 10px;}
+.content .right{float: left;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;}
+.right>div{margin-bottom: 30px;
+  width: 400px;
+  overflow: hidden;}
+.right>div>a:hover{background-color:#feda00;
+  color:#000;
+  border:1px solid #000;}
+.right .money{
+  display: flex;
+}
+.right .money>span:nth-child(1){
+  width: 64px;
+  height: 26px;
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 26px;
+  margin-top: 5px;}
+.right .money .money1>span:first-child{
+  margin-left: 25px;
+  color: #fcda00;
+  font-size: 30px;
+
+}
+.right .money .money1>span:last-child{
+  margin-left: 25px;
+  color: #fff;
+  font-size: 18px;
+
+}
+.right .style{display: flex;}
+.right .style>span{
+  width: 64px;
+  height: 26px;
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 26px;
+  margin-right: 25px;}
+.right .style>a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  width: 80px;
+  height: 26px;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 5px;
+  line-height: 26px;
+}
+.right .size{
+  display: flex;
+  flex-wrap: wrap;
+}
+.right .size>span{
+  width: 64px;
+  height: 26px;
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 26px;
+  margin-right: 25px;
+}
+.right .size>a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  width: 65px;
+  height: 26px;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 5px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.right .size>a:nth-child(6){
+  margin-left: 93px;
+}
+.right .num{display: flex;}
+.right .num>span{
+  width: 64px;
+  height: 26px;
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 26px;
+  margin-right: 25px;
+}
+.right .num input{background-color:#2b2e33;
+  outline: none;
+  border:1px solid #2b2e33;
+  width: 160px;
+  text-align: center;
+  color:#fff;}
+.right .num>a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  width: 65px;
+  height: 26px;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+.right .tips{font-size: 14px;
+  margin-top: -10px;}
+.right .tips .yellow{
+  color: yellow;
+}
+.right .tips .white{
+  color: white;
+}
+.bottom{
+  width: 1100px;
+  text-align: center;
+  border-top:2px solid #4f4f4f ;
+  border-bottom: 2px solid #4f4f4f ;
+  padding: 20px 0px;
+}
+.bottom>a{width: 1094px;
+  font-size: 28px;
+  color: #fcda00;
+  text-decoration: none;
+  text-align: center;
+  border:3px solid #fcda00;
+  border-radius: 5px;
+  display: block;
+  padding:30px 0 28px 0 ;}
+.clear{clear:both;}
+.wrap>.inner>img{margin: 0 auto;}
