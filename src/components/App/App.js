@@ -1,4 +1,4 @@
-import React,{Component} from 'react'
+import React,{ Component } from 'react'
 import './app.css'
 import Layout from '../Layout/Layout'
 import Main from '../Main/Main'
